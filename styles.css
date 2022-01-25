@@ -1,0 +1,361 @@
+
+   header{ 
+    background-image: linear-gradient(132deg, #ffffff 50%, #f6b400 0%);
+    background-color: #F6B400;
+}
+ html{
+  margin: 0px;
+  padding:0px;
+  height: 100%;
+     
+ }
+
+#nav{
+   
+    display:flex;
+    padding:2% 6%;
+    justify-content: space-between;
+    align-items: ;
+}
+.nav-tab{
+flex:10px;
+text-align: right;
+}
+.nav-tab ul li{
+list-style: none;
+padding:10px 30px;
+text-align:right;
+display:inline-block;
+position:relative
+}
+.nav-tab ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.nav-tab-page::after{
+    content:'';
+    width: 100%;
+    height:4px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+}
+#About_us{
+    display: flex;
+    justify-content: space-around;
+}
+.image1{
+    width: 500px;
+    height: 500px;
+}
+.text-box{
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-box h1{
+    font-size: 50px;
+}
+.text-box p{ 
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+  
+}
+.text-box button{
+    margin-top: 30px;
+    padding:10px 20px;
+    text-align: center;
+    background-color:  #F6B400;
+    border-radius: 15px 15px 0px 15px;
+    border-color: transparent;
+    color: whitesmoke;
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: medium;
+    background-color: #F7FDF6;
+    margin-bottom: 20px;
+}
+.delivery{
+    border-style: solid;
+    border-color: rgb(216, 120, 51);
+    padding: 70px;
+    margin: 100px 60px;
+    border-radius: 15px;
+    text-align: center;
+}  
+.quality{
+    border-style: solid;
+    border-color:rgb(216, 120, 51) ;
+    padding-top: 70px;
+    margin: 100px 60px;
+    border-radius: 15px;
+    text-align: center;
+}
+.delicious{
+  border-style: solid;
+  border-color:rgb(216, 120, 51) ;
+  padding-top: 70px;
+  margin: 100px 60px;
+  border-radius: 15px;
+  text-align: center;
+
+}
+.card-title{
+    font-family: sans-serif;
+    font-size: large;
+    color: sienna;
+    text-align: center;
+}
+.quality img, .delicious img, .delivery img{
+    align-items: center;
+    text-align: center;
+}
+.card-img-top{
+    text-align: center;
+    align-self: center;
+}
+.card-text{
+    text-align: center;
+    font-size: small;
+    padding: 20px;
+}
+.quality , .shipping, .taste{
+    align-items: center;
+}
+.menu-color{
+    color: #F6B400;
+    text-align: center;
+}
+
+
+#menu{
+    margin-top: 30px;
+}
+#menu h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#menu h2{
+    text-align: center;
+    font-weight: bold;
+    color: brown;
+}
+
+#row,#row2{
+    display: flex;
+    justify-content: center;
+
+}
+.column-container-xs{
+    width: 45%;
+    border-style: solid;
+    border-color: rgb(216, 120, 51);
+    margin:20px 10px;
+    border-radius: 15px;
+    text-align: center;
+    align-content: center;
+    position:relative;top:50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cart{
+    background-color: #E1EBE6;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+ 
+.justify{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+#offer {
+  background-image: linear-gradient(132deg, #ffffff 50%, #ffffff 0%);
+    background-color: #f9fcfb;
+    margin-top: 20px; 
+    padding: 10px;  
+    height: fit-content; 
+}
+.delish{
+    display: flex;
+    float:right;
+    
+}
+.big{
+    float: right;
+    position: relative; left: 400px; top: 100px
+}
+
+.small{
+    color:#FFBE41;
+}
+
+.delish-text{
+     margin-left: 100px; 
+     display:flexbox;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+}
+.delish-text h1{
+    font-size: 80px;
+    margin-top: 100px;
+  }
+    .dots{
+  font-size:70px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content:space-evenly;
+  position: relative;
+  margin: 0%;
+}
+.dot{
+  margin-left: 100px;
+}
+
+#download{
+    background-color:#F6B400; 
+    height: 800px;
+}
+.advert{
+    display: flex;
+    margin-top: 6px;
+    float: right;
+    justify-content: space-around; 
+    height: 300px;
+    position: relative; right:30px;
+    
+}
+.app{
+    display:flex;
+    position: relative; top:500px;
+    justify-content: space-around;
+}
+#download h1{
+    font-size:45px;
+    position: relative; top:400px;
+    margin-left: 30px;
+    font-weight: bolder;
+    font-family: inherit;
+}
+.first-ad{
+    position: relative; right:30px;
+    border-radius: 10% 10% 10% 10%;
+}
+.second-ad{
+    border-radius: 10% 10% 10% 10%;
+}
+#visit{
+
+    background-color: #F7FDF6;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    padding-top: 50px;
+}
+.arrange ul li{
+    font-size: 20px;
+    padding-bottom: 20px;
+    list-style-type: none;
+
+}
+.bulleting{
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+
+.news input{
+    padding: 5px;
+}
+.news button{
+    padding:7px ;
+    padding-left: 10px;
+    background-color: #f6b400;
+    border: transparent;
+}
+#visit h1{
+    margin-left: 95px;
+    margin-top: 10px;
+}
+#visit a{
+    position: relative; top:80px;
+}
+.upper_left_footer1{
+    font-family: 'Niconne', cursive;
+    font-size: 50px;
+}
+.upper_left_footer2{
+    font-family: 'Niconne', cursive;
+    color:#F6B400;
+    font-size: 50px;
+}
+.upper_middle_footer{
+    color:black;
+    font-size: 12px;
+    text-align: center;
+}
+.strong{
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+
+}
+.upper_right_footer{
+    text-align: right;
+    font-size: 20px;
+    position: relative; left: 100px;bottom: 20px;
+    padding:7% 8% ;
+    margin-bottom: 38%;
+
+}
+.button{
+    color-scheme: yellow !important;
+    text-align: center;
+
+}
+.lower_footer_section{
+    padding: relative; left: 100px;bottom: 20px;
+
+}
+.lower_left_footer{
+  text-align:left;
+  font-size: 18px;
+  display: flex;
+}
+.lower_middle_footer{
+    position: center;
+    text-align: center;
+    align-items: gap: 15px;
+    padding-right: 20pt;
+    padding-left: 20pt;
+}
+
+.lower_right_footer{
+    left: 120px;
+    position:absolute;
+    font-size: 18px;
+    color: black;
+    text-align: right;
+    font-style: normal;
+    padding-right: 20pt;
+    padding-left: 20pt;
+ }
+
+
+
